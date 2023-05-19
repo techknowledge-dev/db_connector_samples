@@ -1,0 +1,32 @@
+name: transaction
+description: transaction example
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dblib:
+    git:
+      url: https://github.com/techknowledge-dev/dblib_dart.git
+    # path: ~/Documents/flutterLibs/dblib_dart
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+

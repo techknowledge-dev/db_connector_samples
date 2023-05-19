@@ -1,0 +1,6 @@
+andorid/execute/app/build
+android/query/app/build
+android/queryRows/app/build
+flutter/example/build
+flutter/transaction/build
+.DS_Store
